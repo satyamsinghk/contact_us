@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    color: rgb(61, 58, 58);
+}
+.imgg img {
+    height: 2.3rem;
+    width: 2.3rem;
+    margin-right: 1.6rem;
+}
+
+.container {
+    height: 87vh;
+    background-color: rgb(224, 248, 255);
+}
+.contact-contain {
+    max-width: 80%;
+    height: 96%;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.info {
+    max-width: 78%;
+    height: 92%;
+    /* background-color: bisque; */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.contact-page {
+    flex: 1;
+    padding: 2rem;
+    align-items: center;
+}
+.contact-page h1 {
+    font-size: 35px;
+}
+
+.detail {
+    flex: 1;
+    padding: 2rem;
+    border-left: 2px solid black;
+}
+.detail h3 {
+    padding-bottom: 8px;
+}
+.gap {
+    padding-bottom: 2rem;
+}
+
+.imgg {
+    padding-top: 2rem;
+}
+
+/* form */
+
+/* #myRadioid2 {
+    margin-top: 1.7rem;
+    margin-bottom: 1.4rem;
+} */
+
+/* #myRadioid {
+    margin-top: 1.7rem;
+    margin-bottom: 0.6rem;
+} */
+.tname {
+    min-width: 70%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 3px;
+}
+.tarea {
+    border-radius: 4px;
+}
+
+form input {
+    margin-top: 0.3rem;
+}
+
+.open {
+    display: none;
+}
+.change {
+    margin: 1.2px;
+    background-color: black;
+}
+
+.ham {
+    height: 14px;
+    width: 14px;
+    /* background-color: black; */
+    color: antiquewhite;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+}
+.ham2 {
+    height: 14px;
+    width: 14px;
+    /* background-color: black; */
+    color: antiquewhite;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+@media screen and (max-width: 942px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-page {
+        border-right: 0px;
+        border-bottom: 2px solid black;
+        align-items: center;
+        margin: auto;
+    }
+    .detail {
+        border-left: 0px;
+    }
+    .contact-page h1 {
+        font-size: 24px;
+    }
+    .container {
+        height: 150vh;
+    }
+    .tname {
+        min-width: 100%;
+    }
+}
