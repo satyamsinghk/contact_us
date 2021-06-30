@@ -84,6 +84,7 @@ body {
 }
 .tarea {
     border-radius: 4px;
+      margin-bottom: 7px;
 }
 
 form input {
@@ -117,6 +118,14 @@ form input {
     border-radius: 50px;
     cursor: pointer;
     display: inline-block;
+}
+
+.submit {
+    border-radius: 30px;
+    padding: 9px;
+    margin-top: 20px;
+    background-color: rgb(139, 131, 131);
+    color: white;
 }
 
 @media screen and (max-width: 942px) {
